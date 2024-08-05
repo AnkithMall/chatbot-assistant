@@ -1,0 +1,36 @@
+/* src/main.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.chat {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.message {
+  margin: 5px 0;
+}
+
+.message.user {
+  text-align: right;
+}
+
+.message-input {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.message-input input {
+  width: 300px;
+  padding: 5px;
+}
+
+.message-input button {
+  padding: 5px 10px;
+}
